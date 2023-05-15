@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 24px;
+}
+
+.logo {
+  width: 61px;
+}
+
+.logo a {
+  height: 100%;
+}
+
+.rights {
+  color: var(--dark-sea);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.rights a {
+  color: var(--violet);
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8%;
+  fill: var(--dark-sea);
+}
+
+.socials png:hover {
+  fill: var(--violet);
+}
